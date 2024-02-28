@@ -6,8 +6,8 @@ const app = express();
 //     res.send("Server is ready");
 // })
 
-// get list of 5 jokes
-app.get('/jokes', (req,res)=>{
+// in real life, we write api link like this:
+app.get('/api/jokes', (req,res)=>{
 
     res.json({"name":"Saran Pariyar"})
 })
